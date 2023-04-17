@@ -110,5 +110,5 @@ app.MapGet("/hostname", () => {
     app.Logger.LogInformation("Getting hostname: {Hostname}", hostname);
     return Results.Ok(hostname);
 })
-.WithName("Hostname");
+.WithName("Hostname"); 
 app.Run();
